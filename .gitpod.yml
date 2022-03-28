@@ -6,4 +6,4 @@ tasks:
   init:  |
     echo "проверка init"
         
-  command: python qwerty.py
+  command: python start.py
