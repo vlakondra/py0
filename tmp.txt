@@ -1,0 +1,15 @@
+https://packaging.python.org/en/latest/tutorials/packaging-projects
+
+Команды
+rm -r src
+--------------
+python -m pip install --upgrade pip
+или
+pip install --upgrade pip
+
+pip install --upgrade build
+pip install --upgrade twine
+
+pip list
+--------------
+python3 -m twine upload --repository testpypi dist/*
